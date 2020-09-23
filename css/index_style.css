@@ -1,0 +1,188 @@
+/* home section */
+.text-pink{
+    color:#ff305b !important;
+}
+.bg-pink{
+    background-color: #ff305b;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #ff305b;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ff305b;
+    transition: all 1s;
+}
+
+.home{
+    background-image: url(../images/slider-01.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.home .navbar{
+    z-index: 9999999999;
+}
+.home .overLay{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0,0, 0.7);
+}
+.home .overLay h1{
+    font-size: 50px;
+}
+
+
+/* about section */
+.about .brder{
+    width: 90%; 
+    margin-left: 40px;
+    border: 10px solid #333333;
+    border-radius:5px;
+    position: relative;
+}
+
+
+.about .brder .img-brdr{
+    position: relative;
+    top:20px;
+    left:20px;
+    overflow: hidden;
+}
+.about .brder .img-brdr img{
+    border-radius: 5px;
+    width: 100%;    
+}
+
+
+.about .brder .img-brdr .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    background-color:rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.about .brder .img-brdr:hover .layer{
+    top:0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: top 1s;
+}
+
+.about .brd-info{
+    border-bottom: 1px dashed #333333;   
+}
+.about .brd-info p{
+    color: #333333;
+    font-size: 15px;
+}
+.about li span{
+    font-weight:400;
+}
+.about .hire:hover{
+    background-color: orangered;
+}
+
+
+/* service section */
+
+#services{
+    background-color:#f1f1f1;
+}
+
+.header hr{
+    width: 60px;
+    border-top: 1px solid #ff305b;
+    margin: auto;
+    margin-top:3px;
+}
+.header .diff-hr{
+    width: 120px;
+}
+
+.icon:hover i{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.icon:hover{
+    background-color:#fff;
+    border-radius: 10px;
+    transition: all 0.5;
+}
+
+/* portfolio section */
+
+#portfolio ul li:hover {
+    color: #ff305b;
+    cursor: pointer;
+}
+
+
+#portfolio .overlay{
+    /* width: 100%;
+    height: 100%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0);
+
+   
+}
+#portfolio .img-product:hover .overlay{
+    top:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: top 1s;
+}
+
+#portfolio .img-product .overLay i{
+    /* position: absolute;
+    right: 10%;
+    bottom: 10%; */
+    display: none;
+}
+
+
+#portfolio .img-product .overLay:hover i{
+    display: flex;
+}
+
+
+/* clints */
+.clints , .feedback , #blog{
+    background-color: #f1f1f1;
+}
+
+/* Testimonial section  */
+
+.feedback .traingle{
+    width: 0;
+    height: 0;
+    margin-left: -16px;
+    border-top: 170px solid #ff305b;
+    border-right: 170px solid transparent;
+    border-bottom-left-radius: 5px;
+}
+
+.feedback .information{
+    position: absolute;
+    bottom: 4px;
+    left: -18px;
+}
+
+
+.carousel .carousel-indicators li{
+    background-color: #ff305b;
+    top: 70px;
+    position: relative;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+/* blog section */
